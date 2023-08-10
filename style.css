@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body,
+h1,
+p,
+input,
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    font-family: "Roboto";
+    color: red;
+}
+
+.header-title {
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-brands {
+    flex: 2;
+}
+
+.brand-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.brand-item {
+    margin: 0 10px;
+}
+
+.header-controls {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.search-button {
+    background-color: #FF9900;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.icon {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.card {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border: none;
+    border-radius: 16px;
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+.card-image {
+    width: 120px;
+    height: 150px;
+}
+
+.card-image-pg {
+    width: 200px;
+    height: 300px;
+}
+
+.main-heading {
+    color: red;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.address-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+h6 {
+    padding-right: 20px;
+    font-weight: bold;
+
+}
+
+.add-item {
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.cost-button {
+    font-size: bold;
+
+}
+
+.payment-button {
+    color: #fff;
+    background-color: darkblue;
+    width: 200px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 18px;
+
+}
+
+.total {
+    padding-top: 30px;
+}
+
+.sub {
+    padding-left: 150px;
+}
+
+.brand-item {
+    color: #fff;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.order-total {
+    font-weight: bold;
+}
+
+.card-button {
+    padding-left: 150px;
+}
+
+
+
+.button-1 {
+    padding-left: 120px;
+}
+
+.payment-details {
+    padding-left: 25px;
+}
+
+.para {
+    padding-left: 10px;
+    padding-top: 10px;
+}s
